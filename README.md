@@ -3,6 +3,8 @@ Udacity Flying Car Nanodegree - Term 1 - Project 1 - Backyard Flyer
 
 This is the first project on [Udacity's Flying Car Nanodegree](https://www.udacity.com/course/flying-car-nanodegree--nd787). We need to control a simulated drone using python to fly in a square trajectory in a backyard. Udacity's FCND Simulator could be downloaded [here]((https://github.com/udacity/FCND-Simulator-Releases/releases). The python code use [Udacidrone](https://udacity.github.io/udacidrone/) API to communicate with the simulator. This API use [MAVLink](http://qgroundcontrol.org/mavlink/start) protocol.
 
+![Here it is](./images/backyard_square.gif)
+
 # Prerequisites
 
 To run this project you need to have the following software installed:
@@ -78,7 +80,7 @@ The transition methods are complete ([lines 96 - 180](./backyard_flyer.py#L96)).
 
 ### Fill in the appropriate callbacks. Shell state_callback, local_position_callback, and velocity_callback are provided though they may not be required for all states.
 
-The callbacks are complete calling the right transition method based on the position, velocity, and state of the drone. Here again could be good to separate the "transitions guards" from the code, but I didn't go so far.
+The callbacks are complete ([lines 43 - 94](./backyard_flyer.py#L43))calling the right transition method based on the position, velocity, and state of the drone. Here again could be good to separate the "transitions guards" from the code, but I didn't go so far.
 
 ## Mission Analysis
 ### Running the backyard_flyer.py script correctly commands the vehicle to fly in a square.
