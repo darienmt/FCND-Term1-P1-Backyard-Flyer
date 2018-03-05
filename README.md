@@ -63,7 +63,7 @@ Details about velocity:
 
 The `backyard_flyer.py` implements the following state machine to control the drone using an even-driven/asynchronous approach:
 
-!(Drone states)(./images/FlightStates.png)
+![Drone states](./images/FlightStates.png)
 
 When the code receives following messages:
 - MsgID.LOCAL_POSITION: Informing current position of the drone.
